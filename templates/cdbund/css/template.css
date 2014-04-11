@@ -1,0 +1,204 @@
+/*************************************************************
+        HEADER
+*************************************************************/
+#logo {
+    position: absolute;
+    background: url(../images/logo.jpg) no-repeat;
+    width: 246px; 
+    height: 103px; }
+
+#header {
+    width: 1100px;
+    height: 103px;
+    background: url(../images/headerRight.jpg) right no-repeat; }
+
+#admin-ch, #department-name {
+    text-align: right;
+    padding: 0px 20px 0px 0px; }
+
+#application-name {
+    text-align: right;
+    padding: 20px 20px 0px 0px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px; }
+
+#admin-ch a, #department-name a {
+    font-size: 11px; }
+
+#admin-ch a, #department-name a, #application-name a {
+    text-align: right;
+    height: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    font-weight: bold; }
+
+#admin-ch a {
+    color: #000000; }
+
+#department-name a, #application-name a {
+    color: #ffffff; }
+
+
+/*************************************************************
+        SMALL NAVIGATION (SERVICE & LANGUAGE)
+*************************************************************/
+#small-navigation {
+    background-color: #cccccc;
+    width: 1100px; }
+
+#service-navigation, #language-navigation {
+    padding: 3px 0px 3px 0px;
+    float: left; }
+
+#service-navigation {
+    text-align: left;
+    width: 800px; }
+
+#language-navigation {
+    text-align: right;
+    width: 300px; }
+
+#language-navigation ul {
+    float: right; }
+
+#service-navigation ul, #language-navigation ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    list-style: none; }
+
+#service-navigation li, #language-navigation li {
+    margin: 0px;
+    padding: 0px 5px;
+    float: left;
+    border-color: #000;
+    border-style: solid; }
+
+#service-navigation li {
+    border-width: 0px 1px 0px 0px; }
+
+#service-navigation li:last-of-type {
+    border-width: 0px; }
+
+#language-navigation li {
+    border-width: 0px 0px 0px 1px; }
+
+#service-navigation a, #language-navigation a {
+    color: #000;
+    text-decoration: none;
+    font-size: 11px; }
+
+#service-navigation a:hover, #language-navigation a:hover {
+    color: #808080; }
+
+
+/*************************************************************
+        TOP NAVIGATION
+*************************************************************/
+#top-navigation {
+    height: 28px;
+    line-height: 28px;
+    background: #ccc;
+    width: 1100px;
+    border-top: 1px solid #fff; }
+
+#top-navigation ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    list-style: none; }
+
+#top-navigation li {
+    margin: 0px;
+    float: left; }
+
+#top-navigation ul li a {
+    padding: 0px 8px;
+    height: 28px;
+    display: inline-block;
+    min-width: 100px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background: #333333;
+    border-right: 1px solid #ffffff; }
+
+#top-navigation ul li a:hover, #top-navigation ul li.current a  {
+    background: #016798;
+    color: #ffffff; }
+
+
+/*************************************************************
+        MAIN WRAPPER
+*************************************************************/
+.main-wrapper {
+    width: 1100px; }
+
+
+/*************************************************************
+        MAIN NAVIGATION
+*************************************************************/
+#main-mavigation {
+    padding: 20px 0px 20px 0px;
+    width: 210px;
+    float: left; }
+
+#main-mavigation ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 0px;
+    list-style: none;
+    border-bottom: 1px solid #cccccc; }
+
+#main-mavigation li {
+    margin: 0px;
+    border-top: 1px solid #cccccc; }
+
+#main-mavigation ul li a {
+    padding: 3px 0 3px 10px;
+    display: block;
+    width: 200px;
+    color: #000000;
+    text-decoration: none; }
+
+#main-mavigation ul li a:hover, #main-mavigation ul li.current a  {
+    background: #016798;
+    color: #ffffff;}
+
+
+/*************************************************************
+        CONTENT
+*************************************************************/
+#content {
+    width: 830px;
+    min-height: 400px;
+    float: left;
+    margin: 0px 5px 10px 25px; }
+
+
+/*************************************************************
+        FOOTER
+*************************************************************/
+#footer {
+    clear: both;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #000;
+    min-height: 30px;
+    padding: 5px 0px;
+    margin: 0px 0px 0px 230px;
+    width: 840px; }
+
+#inner-footer {
+    float: left;
+    width: 70%;
+    vertical-align: middle;
+    height: 30px; }
+
+#inner-footer-version {
+    float: left;
+    text-align: right;
+    height: 30px;
+    vertical-align: bottom;
+    width: 30%; }

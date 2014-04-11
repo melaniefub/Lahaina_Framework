@@ -1,0 +1,31 @@
+CHANGELOG
+Lahaina Framework
+
+---------------------------------
+Version 1.0.2
+Bugfixes
+    * Leere Strings beim Überprüfen des aktuellen Controllers werden abgefangen
+
+---------------------------------
+Version 1.0.1
+
+Bugfixes
+    * Die Slugify Methode des Framework Helpers verändert die Umlaute nun korrekt
+    * OrderBy Angaben werden nach einer ORM Abfrage nun auch zurückgesetzt
+    * ActionItem fügen jetzt auch die ID hinzu wenn nötig
+    * Diverse kleine Datenbankoptimierungen
+    * Routing funktioniert nun auch auf Linux Systemen
+
+Neue Features
+    * Man muss neu den Charset bei der Datenbankverbindung mitgeben
+    * Der Name des Hauptcontrollers kann individuell angepasst werden
+    * Mit getCurrentIdentifier kann nun auch die ID eines URL Aufrufs ausgelesen
+      werden
+    * Die Dauer der Gültigkeit einer Session kann nun konfiguriert werden.
+    * Validierung mit Untereinträgen zB. user.name möglich
+    * Bei Beziehungen von Model Entries muss nun explizit findAll oder findOne
+      angegeben werden, damit man evt. vorher auch noch filtern kann
+      Beispiel: $user->addresses()->whereEqual('is_active', true)->findAll();
+    * Mail Bibliothek eingebaut
+    * Loader muss nicht mehr direkt dem Controller übergeben werden, sondern 
+      ist über das Lahaina Objekt verwendbar.

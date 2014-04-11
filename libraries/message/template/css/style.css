@@ -1,0 +1,28 @@
+.message {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid; }
+
+.message ul {
+    padding: 0 0 0 20px;
+    margin: 0; }
+
+.message.error {
+    border-color: #FF0000;
+    color: #FF0000;
+    background: #FF9D9B; }
+
+.message.warning {
+    border-color: #D36900;
+    color: #D36900;
+    background: #FFD09B; }
+
+.message.info {
+    border-color: #0074BC;
+    color: #0074BC;
+    background: #9BD8FF; }
+
+.message.success {
+    border-color: #3CAD03;
+    color: #3CAD03;
+    background: #BCFF9B; }
