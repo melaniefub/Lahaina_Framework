@@ -12,7 +12,7 @@ use lahaina\framework\data\Container;
      *
      * @version 1.0.2
      * 
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      * 
      * @see Modified solution of: http://j4mie.github.io/idiormandparis/
      */

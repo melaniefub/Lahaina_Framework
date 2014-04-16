@@ -20,7 +20,7 @@ use application\controllers\Admin_Controller;
     /**
      * User controller
      *
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class User_Controller extends Admin_Controller {
 

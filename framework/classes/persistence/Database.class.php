@@ -15,7 +15,7 @@ use lahaina\framework\data\Collection;
      *
      * @version 1.0.2
      * 
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class Database {
 

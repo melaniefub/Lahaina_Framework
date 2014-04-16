@@ -10,7 +10,7 @@ if (!defined('PATH'))
      *
      * @version 1.0.0
      * 
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class ActionColumn extends Column {
 

@@ -12,7 +12,7 @@ use lahaina\framework\mvc\Model;
      * 
      * @version 1.0.2
      *
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class Role_Model extends Model {
 

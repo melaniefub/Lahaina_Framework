@@ -12,7 +12,7 @@ use lahaina\libraries\message\Message;
      *
      * @version 1.0.2
      * 
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class ValidationMessage extends Message {
 

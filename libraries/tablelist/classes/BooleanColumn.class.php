@@ -7,7 +7,7 @@
      *
      * @version 1.0.2
      * 
-     * @author Melanie Rufer FUB <melanie.rufer@vtg.admin.ch>
+     * @author Melanie Rufer
      */
     class BooleanColumn extends Column {
 

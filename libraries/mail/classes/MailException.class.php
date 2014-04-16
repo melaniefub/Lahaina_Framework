@@ -12,7 +12,7 @@ if (!defined('PATH'))
      *
      * @version 1.0
      *
-     * @author Melanie Rufer FUB <melanie.rufer@vtg.admin.ch>
+     * @author Melanie Rufer
      */
     class MailException extends LibraryException {
 	

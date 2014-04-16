@@ -15,7 +15,7 @@ use lahaina\libraries\message\Warning;
      *
      * @version 1.0.2
      * 
-     * @author Jonathan Nessier FUB <jonathan.nessier@vtg.admin.ch>
+     * @author Jonathan Nessier
      */
     class Login_Controller extends Controller {
 
