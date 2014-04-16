@@ -83,13 +83,6 @@ use lahaina\framework\data\Container;
 	/**
 	 * Constructor
 	 * 
-	 * @param \lahaina\framework\persistence\orm\Database $db Database connection
-	 * @param array $array Configuration array of ORM
-	 */
-
-	/**
-	 * Constructor
-	 * 
 	 * @param \lahaina\framework\common\Lahaina $lahaina
 	 * @param sting $connectionName Database connection name
 	 */

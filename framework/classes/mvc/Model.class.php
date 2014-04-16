@@ -212,8 +212,8 @@ use lahaina\framework\persistence\Orm;
 	 * Build a foreign key name based on a table name or 
 	 * get specific foreign key name
 	 * 
-	 * @param string $specified_foreign_key_name
-	 * @param string $table_name
+	 * @param string $specifiedForeignKeyName
+	 * @param string $tableName
 	 * @return string
 	 */
 	protected function _buildForeignKeyName($specifiedForeignKeyName, $tableName) {
@@ -320,7 +320,7 @@ use lahaina\framework\persistence\Orm;
 	 * Manage many-to-many relations via an intermediate model
 	 * 
 	 * @param string $associatedEntityName Name of associated entity
-	 * @param string $joinClassName Name of joined entity
+	 * @param string $joinedEntityName Name of joined entity
 	 * @param string $keyToBaseTable Key to base table
 	 * @param string $keyToAssociatedTable Key to associated table
 	 * @param boolean $find Find result
