@@ -1,2 +1,2 @@
-Lahaina_Framework
+Lahaina Framework
 =================
