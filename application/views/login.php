@@ -20,7 +20,7 @@ $m_helper = new MessageHelper();
             <td><input name="password" type="password" id="password" value="" /></td>
         </tr>
         <tr>
-            <td><!-- empy --></td>
+            <td><!-- empty --></td>
             <td><input type="submit" value="Speichern" /></td>
         </tr>
     </table>

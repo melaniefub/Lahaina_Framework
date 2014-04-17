@@ -135,11 +135,6 @@ if (!defined('PATH'))
                             $isValid = false;
                         }
                     }
-
-                    // check DNS deactivated 
-                    /* if ($isValid && !(checkdnsrr($domain, "MX") || checkdnsrr($domain, "A"))) {
-                      $isValid = false;
-                      } */
                 }
                 return $isValid;
             }, $message);
@@ -215,7 +210,6 @@ if (!defined('PATH'))
                 if (strlen($val) === 0) {
                     return TRUE;
                 }
-
                 $val = (float) $val;
                 $limit = (float) $args[0];
                 $inc = (bool) $args[1];
